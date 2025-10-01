@@ -21,11 +21,13 @@
 
 
 .hero {
-    height: 50vh;
+    height: 450px;
     background: url("src/imagens/datacenterimg.jpeg") center/cover no-repeat;
     position: relative;
 
 }
+
+
 
 .textos-hero {
     position: absolute;
@@ -34,7 +36,7 @@
 }
 
 .titulo-hero {
-    font-size: 6.5vh;
+    font-size: 58px;
     margin-top: 9%;
     font-family: Instrument_Sans-Regular, sans-serif ;
     font-weight: lighter;
@@ -48,4 +50,37 @@
     font-size: 4.5vh;
     font-family: Quicksand-regular, sans-serif;
     font-weight: bolder;
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        height: 300px;
+    }
+
+    .titulo-hero {
+    font-size: 38px;
+    }
+
+    .paragrafo-hero {
+    font-size: 33px;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+    }
+
+    .titulo-hero {
+    font-size: 28px;
+
+    }
+
+    .paragrafo-hero {
+    font-size: 23px;
+
+    }
+
 }
