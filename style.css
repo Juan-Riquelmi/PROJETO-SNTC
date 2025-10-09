@@ -109,8 +109,9 @@ main {
 
 .imagens {
     width: 100%;
-    height: auto;
     object-fit: cover;
+    height: auto; 
+    aspect-ratio: 16 / 9;
 
 }
 
@@ -182,6 +183,7 @@ article {
     font-size: 40px;
     text-align: center;
     background-color: #f2bd0e73;
+    margin-bottom: 60px;
 }
 
 .imagens-article-sem-continuacao {
@@ -405,7 +407,8 @@ article {
 }
 
 .swiper-slide { 
-    height: 450px;
+    height: 310px !important;
+    padding-bottom: 20px;
     border-radius: 30px;
     width: 100%;
     background-color: #ffffff;
@@ -419,7 +422,7 @@ article {
 }
 
 .card-img {
-    height: 175px;
+    height: 155px;
     width: 100%;
     object-fit: cover;
     border-radius: 30px 30px 0 0;
