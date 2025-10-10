@@ -192,6 +192,7 @@ article {
 
 
 .swiper-slide { 
+    padding-bottom: 20px;
     height: 340px;
     border-radius: 30px;
     width: 100%;
@@ -407,6 +408,7 @@ article {
 }
 
 .swiper-slide { 
+    padding-bottom: 30px;
     height: 310px !important;
     border-radius: 30px;
     width: 100%;
