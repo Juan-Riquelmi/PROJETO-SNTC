@@ -282,6 +282,22 @@ a {
     border-radius: 30px 30px 0 0;
 }
 
+iframe {
+    width: 100%; 
+    height: 600px;
+    border:none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.titulo-main-ter {
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #6200ff73;
+    margin-bottom: 60px;
+
+}
 /*Configuração para celulares medios em pé*/
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -401,6 +417,7 @@ article {
 
 
 .titulo-main-sec {
+    margin-bottom: 0;
     font-size: 30px;
     text-align: center;
     background-color: #f2bd0e73;
@@ -408,7 +425,7 @@ article {
 
 .swiper-slide { 
     height: 310px !important;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     border-radius: 30px;
     width: 100%;
     background-color: #ffffff;
@@ -429,7 +446,7 @@ article {
 }
 
 .slide-content {
-    margin: 40px 0;
+    margin: 0px 0px 0px 40 ;
     overflow: visible !important ;
 }
 
@@ -443,13 +460,22 @@ article {
     font-size: 18px;
 }
 
-
 .swiper-button-next,
 .swiper-button-prev,
 .swiper-navBtn {
     display: none !important;
     visibility: hidden !important;
     pointer-events: none !important;
+}
+
+.titulo-main-ter {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+iframe {
+    border-radius: 40px;
+    height: 600px;
 }
 
 }
